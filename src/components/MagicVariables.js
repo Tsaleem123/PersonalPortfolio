@@ -4,13 +4,13 @@
 export const BooksAPITitle = "Books API GUI";
 export const BooksAPIPara =
   "Designed and developed a book finder application in JavaScript which makes use of the Google Books API to retrieve book results. It is styled and formatted using CSS framework Bulma.";
-export const BooksAPIImg = "../imgGallery/Book.jpeg";
+export const BooksAPIImg = "/imgGallery/Book.jpeg";
 export const BookAPITechList = ["VanillaJS", "Axios", "API", "Bulma CSS"];
 
 export const CalcTitle = "Calculator";
 export const CalcPara =
   "Designed and developed a calculator application using JavaScript and React which dynamically stores intermediate results using state effect hooks.";
-export const CalcImg = "/imgGallery/Calc.png";
+export const CalcImg = "/imgGallery/Calc.PNG";
 export const CalcTechList = ["React", "State Effect Hook"];
 
 export const RUCafeTitle = "RU Cafe";
