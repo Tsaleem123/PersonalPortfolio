@@ -10,7 +10,7 @@ export const BookAPITechList = ["VanillaJS", "Axios", "API", "Bulma CSS"];
 export const CalcTitle = "Calculator";
 export const CalcPara =
   "Designed and developed a calculator application using JavaScript and React which dynamically stores intermediate results using state effect hooks.";
-export const CalcImg = "./imgGallery/Calc.png";
+export const CalcImg = "/imgGallery/Calc.png";
 export const CalcTechList = ["React", "State Effect Hook"];
 
 export const RUCafeTitle = "RU Cafe";
