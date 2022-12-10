@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/**
+Portfolio Reference Colors
+#F7ECDE
+#E9DAC1
+#9ED2C6
+#54BAB9
+Look up find shades for hex values.
+**/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;500;600");
+
+@keyframes transitionIn {
+  from {
+    transform: rotateY(90deg);
+    transform-origin: 200%;
+  }
+
+  to {
+    transform: rotateY(0deg);
+    transform-origin: 0%;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  animation: transitionIn 2s cubic-bezier(1, -0.01, 0, 1);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  color: #414141;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto Mono", monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e9dac1;
+}
+
+.Projects {
+  text-align: center;
+  padding-top: 50px;
+  background-color: #e9dac1;
+}
+.Card
+{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display:flex;
+  justify-content: center;
+  
+}
+
+.Welcome {
+  font-size: 150%;
+  color: #414141;
+  text-align: center;
+  padding: 200px;
+  background-color: #54bab9;
+}
+
+.right-section {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding: 20px;
+  background-color: #9ed2c6;
+}
+
+nav a {
+  padding-right: 2rem;
+  text-decoration: none;
+  font-weight: 100px;
+}
+
+nav h1 {
+  background-color: #e9dac1;
+  transition: background-color 1s ease-out 100ms;
+  border: solid;
+  border-width: 0.18rem;
+  padding: 5px;
+  border-radius: 1rem;
+  border-color: #494949;
+}
+
+nav h1:hover {
+  color: invert;
+  background-color: #54bab9;
+}
+.Footer{
+  padding: 20px;
+  background-color: rgb(82, 82, 82);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
