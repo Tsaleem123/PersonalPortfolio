@@ -49,16 +49,31 @@ body {
   padding-top: 50px;
   background-color: #e9dac1;
 }
-.Card
-{
+.Card {
   padding-top: 50px;
   padding-bottom: 50px;
-  display:flex;
+  display: flex;
   justify-content: center;
+}
+
+.HeaderOne{
   
+  display: inline-block;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.HeaderTwo{
+  display: inline-block;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Welcome {
+
   font-size: 150%;
   color: #414141;
   text-align: center;
@@ -66,12 +81,24 @@ body {
   background-color: #54bab9;
 }
 
+@media only screen and (max-width: 600px) {
+  .Welcome {
+    font-size: 200%; /* Adjust the font size as per your requirement */
+    
+
+  }
+}
 .right-section {
   display: flex;
-  justify-content: right;
+  justify-content: center;
   align-items: center;
   padding: 20px;
   background-color: #9ed2c6;
+}
+@media only screen and (max-width: 600px) {
+  .right-section {
+    justify-content: center;
+  }
 }
 
 nav a {
@@ -94,7 +121,7 @@ nav h1:hover {
   color: invert;
   background-color: #54bab9;
 }
-.Footer{
+.Footer {
   padding: 20px;
   background-color: rgb(82, 82, 82);
   display: flex;
