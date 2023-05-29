@@ -13,18 +13,16 @@ Look up find shades for hex values.
 
 @keyframes transitionIn {
   from {
-    transform: rotateY(90deg);
-    transform-origin: 200%;
+    opacity: 0%;
   }
 
   to {
-    transform: rotateY(0deg);
-    transform-origin: 0%;
+    opacity: 100%;
   }
 }
 
 * {
-  animation: transitionIn 2s cubic-bezier(1, -0.01, 0, 1);
+  animation: transitionIn 2s cubic-bezier(1, -0.4, 0, 1);
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -81,13 +79,8 @@ body {
   background-color: #54bab9;
 }
 
-@media only screen and (max-width: 600px) {
-  .Welcome {
-    font-size: 200%; /* Adjust the font size as per your requirement */
-    
 
-  }
-}
+
 .right-section {
   display: flex;
   justify-content: center;
