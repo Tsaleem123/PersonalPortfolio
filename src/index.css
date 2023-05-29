@@ -41,6 +41,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #e9dac1;
 }
+.navbar
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f1f1;
+  padding: 10px; 
+}
 
 .Projects {
   text-align: center;
@@ -75,7 +83,8 @@ body {
   font-size: 150%;
   color: #414141;
   text-align: center;
-  padding: 200px;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
   background-color: #54bab9;
 }
 
