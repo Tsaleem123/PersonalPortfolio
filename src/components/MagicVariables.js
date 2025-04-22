@@ -25,6 +25,12 @@ export const POWPara =
 export const POWImg = "/imgGallery/CLI.png";
 export const POWList = ["Python", "CLI", "Computer Security"];
 
+export const NoteTakerTitle = "Note Taking Application";
+export const NoteTakerPara =
+  "Developed a full-stack application using React with Material UI for the frontend and Spring Boot with JPA for the backend, implementing full CRUD operations with a SQL database.";
+export const NoteTakerImg = "/imgGallery/CLI.png";
+export const NoteTakerList = ["Java", "React", "Material UI", "Spring Boot"];
+
 export const TTCTitle = "Tyler The Creator Fake Website";
 export const TTCPara =
   "Introductory web developement project. Simple HTML and CSS dynamically shrinking artist webpage which implements flexbox.";
@@ -36,3 +42,4 @@ export const CalcLink = "https://tsaleem123.github.io/calculator/"
 export const RUCafeLink ="https://github.com/Tsaleem123/RU_CAFE"
 export const POWLink = "https://github.com/Tsaleem123/Proof_Of_Work"
 export const TTCLink = "https://tsaleem123.github.io/TylerTheCreator/index.html"
+export const NoteTakerLink = "https://github.com/Tsaleem123/NoteTaker"
