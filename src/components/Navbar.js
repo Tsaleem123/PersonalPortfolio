@@ -9,7 +9,7 @@ export const Navbar = () => {
     <h2 className="my-1 ml-5 mr-1 inline sm:hidden text-sm sm:text-base">Muhammad S.</h2>
 
     <div className="flex">
-      <a href="TalhaSaleemResume.pdf" download>
+      <a href="https://docs.google.com/document/d/1cVBxrRLRlX5FeGFEbAOp-Ej0hupqdD_ib-JRN2A9RgE/edit?tab=t.0" target="_blank">
         <button className="bg-customColor hover:bg-black text-black hover:text-white font-bold py-1 px-2 my-1 border border-black rounded text-xs sm:text-sm">
           Resume
         </button>
