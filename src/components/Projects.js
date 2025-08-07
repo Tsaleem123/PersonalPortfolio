@@ -8,8 +8,8 @@ export const Projects = () => {
   return (
     <section className = "Projects">
     <h1> Projects: </h1>
-    <a href={MV.NoteTakerLink} target="_blank">
-    <Project Title = {MV.NoteTakerTitle} Para = {MV.NoteTakerPara} Img = {MV.NoteTakerImg} TechList = {MV.NoteTakerList}/>
+    <a href={MV.GameInventoryLink} target="_blank">
+    <Project Title = {MV.GameInventoryTitle} Para = {MV.GameInventoryPara} Img = {MV.GameInventoryImg} TechList = {MV.GameInventoryList}/>
     </a>
     <a href={MV.RUCafeLink} target="_blank">
     <Project Title = {MV.RUCafeTitle} Para = {MV.RUCafePara} Img = {MV.RUCafeImg} TechList = {MV.RUCafechList}/>
