@@ -1,28 +1,31 @@
 /**
- * Defines a simple Navbar for the project.
+ * Defines a simple Navbar for the project with dark theme styling.
+ * Uses color theory for visual hierarchy and contrast.
  */
 export const Navbar = () => {
   return (
-<nav className="bg-navColor">
-  <section className="flex justify-between">
-    <h2 className="my-1 ml-5 mr-1 hidden sm:inline text-sm sm:text-base">Muhammad Saleem</h2>
-    <h2 className="my-1 ml-5 mr-1 inline sm:hidden text-sm sm:text-base">Muhammad S.</h2>
+<nav className="bg-[#1F1F23] border-b border-[#2A2D3A] shadow-lg">
+  <section className="flex flex-col sm:flex-row sm:justify-between sm:items-center py-3 px-3 sm:px-0">
+    <div className="flex justify-center sm:justify-start mb-2 sm:mb-0">
+      <h2 className="ml-0 sm:ml-5 hidden sm:inline text-sm sm:text-base text-[#F9FAFB] font-medium">Muhammad Saleem</h2>
+      <h2 className="inline sm:hidden text-sm text-[#F9FAFB] font-medium">Muhammad S.</h2>
+    </div>
 
-    <div className="flex">
+    <div className="flex gap-2 justify-center sm:justify-end sm:mr-5">
       <a href="https://docs.google.com/document/d/1cVBxrRLRlX5FeGFEbAOp-Ej0hupqdD_ib-JRN2A9RgE/edit?tab=t.0" target="_blank">
-        <button className="bg-customColor hover:bg-black text-black hover:text-white font-bold py-1 px-2 my-1 border border-black rounded text-xs sm:text-sm">
+        <button className="bg-[#1F1F23] hover:bg-[#1F2937] text-[#F9FAFB] hover:text-[#D1D5DB] font-bold py-2 px-2 sm:px-3 border border-[#4B5563] hover:border-[#374151] rounded text-xs sm:text-sm transition-all duration-300 hover:shadow-md">
           Resume
         </button>
       </a>
       
       <a href="mailto:t_sal@hotmail.com">
-        <button className="bg-customColor hover:bg-black text-black hover:text-white font-bold py-1 px-2 my-1 border border-black rounded text-xs sm:text-sm">
+        <button className="bg-[#1F1F23] hover:bg-[#1F2937] text-[#F9FAFB] hover:text-[#D1D5DB] font-bold py-2 px-2 sm:px-3 border border-[#4B5563] hover:border-[#374151] rounded text-xs sm:text-sm transition-all duration-300 hover:shadow-md">
           Email
         </button>
       </a>
 
       <a href="https://github.com/Tsaleem123/" target="_blank">
-        <button className="bg-customColor hover:bg-black text-black hover:text-white font-bold py-1 px-2 my-1 border border-black rounded text-xs sm:text-sm">
+        <button className="bg-[#1F1F23] hover:bg-[#1F2937] text-[#F9FAFB] hover:text-[#D1D5DB] font-bold py-2 px-2 sm:px-3 border border-[#4B5563] hover:border-[#374151] rounded text-xs sm:text-sm transition-all duration-300 hover:shadow-md">
           Github
         </button>
       </a>
