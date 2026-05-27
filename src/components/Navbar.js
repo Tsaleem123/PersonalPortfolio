@@ -12,7 +12,7 @@ export const Navbar = () => {
     </div>
 
     <div className="flex gap-2 justify-center sm:justify-end sm:mr-5">
-      <a href="https://docs.google.com/document/d/1cVBxrRLRlX5FeGFEbAOp-Ej0hupqdD_ib-JRN2A9RgE/edit?tab=t.0" target="_blank">
+      <a href="https://docs.google.com/document/d/10wZtw66yET-sdO3I9PtcoTsS8rDbIelfZCxo2NqBjfc/edit?tab=t.0" target="_blank">
         <button className="bg-[#1F1F23] hover:bg-[#1F2937] text-[#F9FAFB] hover:text-[#D1D5DB] font-bold py-2 px-2 sm:px-3 border border-[#4B5563] hover:border-[#374151] rounded text-xs sm:text-sm transition-all duration-300 hover:shadow-md">
           Resume
         </button>
