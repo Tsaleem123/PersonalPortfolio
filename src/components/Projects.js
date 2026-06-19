@@ -7,7 +7,7 @@ import * as MV from './MagicVariables';
 export const Projects = () => {
   return (
     <section className = "Projects">
-    <h1> Projects: </h1>
+    <h1>Projects</h1>
     <a href={MV.GameInventoryLink} target="_blank" rel="noreferrer" >
     <Project Title = {MV.GameInventoryTitle} Para = {MV.GameInventoryPara} Img = {MV.GameInventoryImg} TechList = {MV.GameInventoryList}/>
     </a>
