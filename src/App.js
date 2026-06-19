@@ -3,6 +3,7 @@
  */
 import { Navbar } from "./components/Navbar";
 import { Welcome } from "./components/Welcome";
+import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Footer } from "./components/Footer";
 function App() {
@@ -10,8 +11,9 @@ function App() {
     <div className="App">
       <Navbar/>
       <Welcome/>
+      <Skills/>
       <Projects/>
-      <Footer/>      
+      <Footer/>
     </div>
   );
 }
