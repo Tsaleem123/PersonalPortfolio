@@ -15,10 +15,10 @@ export const POWList = ["Python", "CLI", "Computer Security"];
 
 export const GameInventoryTitle = "Game Inventory Application";
 export const GameInventoryPara =
-  "Game Inventory is a full-stack web app for searching video games, building personalized lists, and tracking play status and ratings. Built with React/TypeScript frontend and .NET/Entity Framework backend, it uses the Giant Bomb API for game data. Features include user authentication with JWT, email verification, and game status tracking (completed, playing, planned). Guest users can browse without registration.";
+  "Game Inventory is a full-stack web app for searching video games, building personalized lists, and tracking play status and ratings. Built with React/TypeScript frontend and .NET/Entity Framework backend, it uses Twitch's IGDB API for game data. Features include user authentication with JWT, email verification, and game status tracking (completed, playing, planned). Guest users can browse without registration.";
 export const GameInventoryImg = "/imgGallery/GameInventoryImg.png";
-export const GameInventoryList = ["React", "TypeScript", "Material UI", ".NET", "Entity Framework Core", "SQL", "JWT Authentication", "Giant Bomb API", "Azure", "Vercel"];
+export const GameInventoryList = ["React", "TypeScript", "Material UI", ".NET", "Entity Framework Core", "SQL", "JWT Authentication", "IGDB API", "Azure", "Vercel"];
 
 export const RUCafeLink ="https://github.com/Tsaleem123/RU_CAFE"
 export const POWLink = "https://github.com/Tsaleem123/Proof_Of_Work"
-export const GameInventoryLink = "https://gameinventory-app.vercel.app/app"
+export const GameInventoryLink = "https://gameinventory.app/"
